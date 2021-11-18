@@ -12,11 +12,11 @@ Operations that have checked on Postman.
 1. Create(Create name,email,reviews)
 2. Login/Logout(For User)
 3. Delete(Delete an user)
-4. Modify or Uodate(Edit all reviews)
+4. Modify or Update(Edit all reviews)
 
 
 I've used Schema Middleware for User Authentication using JsonWebToken
-Usually JsonWebToken has 2 operation for creating and verify token.
+Usually JsonWebToken has 2 operations for creating and verifying tokens.
 1. jwt.sign({user.data},"String")
 2. jwt.verify(token,"String")
 
